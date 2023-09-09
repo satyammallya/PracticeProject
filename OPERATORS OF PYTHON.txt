@@ -1,0 +1,40 @@
+Types of operator:
+
+1. ARITHMETIC OPERATOR:
+
+2. ASSIGNMENT OPERATOR:
+
+3. LOGICAL OPERATOR:
+   1.AND
+   2.OR
+   
+4. BITWISE OPERATOR
+   1.AND AND(&&)
+   2.XOR
+
+5. COMPARISON OPERATO
+   1. <=
+   2. >=
+   3. =
+   4. >
+   5. <
+   6. =!
+
+6. IDENTITY OPERATOR:THEY ARE USED TO CHECK IF TWO VALUES ARE LOCATED ON SAME PATH OF A MEMORY
+   1. IS
+   2. NOT IS...... are the operators of this operator
+   3. ID FUNCTION:GIVES THE MEMORY LOCATION OF THE VARIABLE
+
+7. MEMBERSHIP OPERATOR: 
+   1. IN
+   2. NOT IN
+
+ITERATIVE STATEMENT:
+
+1. for variable in range:
+	STATEMENTS
+
+2. while condition:
+	STATEMENTS
+	INCREMENT/DECREMENT
+

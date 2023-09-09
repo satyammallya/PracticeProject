@@ -1,0 +1,87 @@
+Practice Question no:1
+
+* Using Conditional Statements
+
+a=int(input("Enter the number:"))
+if a%2==0:
+    print("The number",a,"is a even number.")
+else:
+    print("The number",a,"is a odd number.")
+
+*Using Function
+
+def even_odd():
+    a=int(input("Enter the number:"))
+    if a%2==0:
+        print("The number",a,"is a even number.")
+    else:
+        print("The number",a,"is a odd number.")
+    
+even_odd()
+
+*Using Parameters in Function with Return
+
+def even_odd(number):
+    if number%2==0:
+        return "even"
+    else:
+        return "odd"
+
+no=int(input("Enter the number:"))    
+even_odd=even_odd(no)
+print("The input number is :",even_odd)
+
+*Using Parameter without Return
+
+def even_odd(number):
+    if number%2==0:
+        print("Number is Even.")
+    else:
+        print("Number is Odd.")
+        
+number=int(input("Enter the number:"))
+even_odd(number)
+
+Practice Question no:2
+
+*Using Function :
+
+def factorial(number):
+    if number==1 or number==0:
+        return 1
+    else:
+        return number * factorial(number-1)
+        
+number=int(input("Enter the number:"))
+result=factorial(number)
+print("factorial of the number is:",result)
+        
+        
+*Without Using Function or by Using for loop:
+
+number=int(input("Enter the number:"))
+result=1
+for i in range (1,number+1):
+        result=result*i
+print("Factorial of the number ",number,"is",result)
+        
+
+*Using while loop:
+
+number=int(input("Enter the number:"))
+result=1
+i=1
+while i<number+1:
+        result=result*i
+        i+=1
+print("Factorial of the number ",number,"is",result)
+        
+
+
+
+
+
+
+
+
+        
